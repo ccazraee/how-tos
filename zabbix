@@ -1,2 +1,5 @@
 How to Add Host in Zabbix Server to Monitor
 https://www.tecmint.com/install-zabbix-agent-and-add-windows-host-to-zabbix-monioring/
+
+Zabbix: Using Docker Compose to install and upgrade Zabbix
+https://fabianlee.org/2019/10/06/zabbix-using-docker-compose-to-install-and-upgrade-zabbix/
