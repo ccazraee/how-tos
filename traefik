@@ -2,18 +2,15 @@ How To Use Traefik as a Reverse Proxy for Docker Containers on Ubuntu 18.04
 
 digitalocean.com/community/tutorials/how-to-use-traefik-as-a-reverse-proxy-for-docker-containers-onubuntu-
 
-Ubuntu 18.04
 
-Introduction
-Docker can be an efficient way to run web applications in production, but you may want
-to run multiple applications on the same Docker host. In this situation, you’ll need to set
-up a reverse proxy since you only want to expose ports 80 and 443 to the rest of the
-world.
-Traefik is a Docker-aware reverse proxy that includes its own monitoring dashboard. In
-this tutorial, you’ll use Traefik to route requests to two different web application
-containers: a Wordpress container and an Adminer container, each talking to a MySQL
-database. You’ll configure Traefik to serve everything over HTTPS using Let’s Encrypt.
-Prerequisites
+
+## Introduction
+Docker can be an efficient way to run web applications in production, but you may want to run multiple applications on the same Docker host. In this situation, you’ll need to set
+up a reverse proxy since you only want to expose ports 80 and 443 to the rest of the world.
+Traefik is a Docker-aware reverse proxy that includes its own monitoring dashboard. In this tutorial, you’ll use Traefik to route requests to two different web application
+containers: a Wordpress container and an Adminer container, each talking to a MySQL database. You’ll configure Traefik to serve everything over HTTPS using Let’s Encrypt.
+
+* Prerequisites *
 To follow along with this tutorial, you will need the following:
 One Ubuntu 18.04 server set up by following the Ubuntu 18.04 initial server setup
 guide, including a sudo non-root user and a firewall.
